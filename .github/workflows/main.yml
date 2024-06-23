@@ -19,5 +19,5 @@ jobs:
         ftp-server: ${{ secrets.FTP_SERVER }}
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./  # Change this to the directory you want to upload
-        git-ftp-args: --insecure  # If you have SSL issues, otherwise you can omit this
+        local-dir: ./
+        git-ftp-args: --insecure
